@@ -1,0 +1,8 @@
+.screen-Cointainer{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../public/image/e.jpg);
+    background-size: cover;
+    overflow: hidden;
+    /* background-color: rgb(1, 42, 49); */
+}

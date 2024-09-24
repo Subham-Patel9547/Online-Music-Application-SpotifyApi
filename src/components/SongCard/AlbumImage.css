@@ -1,0 +1,11 @@
+
+  .albumImage{
+    width: 70%;
+    border-radius: 15px;
+    cursor:pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+.albumImage:hover{
+  transform: scale(1.01);
+}

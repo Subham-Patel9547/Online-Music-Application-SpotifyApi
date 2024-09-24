@@ -1,0 +1,19 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-player-body {
+    width: 60%;
+    height: 100%;
+  }
+  
+  .right-player-body {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

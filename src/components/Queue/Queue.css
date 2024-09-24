@@ -1,0 +1,62 @@
+
+.queue-container {
+    width: 100%;
+    height: 35%;
+    border-radius: 30px;
+    background-color: #00000044;
+    background-image: repeating-radial-gradient(
+        circle at 0 0,
+        transparent 0,
+        #004748 40px
+      ),
+      repeating-linear-gradient(#4767d055, #000000);
+  }
+  
+  .queue {
+    height: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+  .upNext {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00eaff;
+    text-decoration: underline;
+  }
+  
+  .queue-list {
+    height: 80%;
+    width: 100%;
+    overflow: scroll;
+    flex-direction: column;
+  }
+  
+  .queue-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .queue-item {
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    background-color: rgba(0, 0, 0, 0.319)
+}
+  
+  .queue-item:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.555);
+  }
+  
+  .track-name {
+    width: 75%;
+    text-overflow: ellipsis;
+  }

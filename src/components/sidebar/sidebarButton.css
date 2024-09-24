@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+}
+
+.btn-body{
+    width: 80px;
+    height: 80px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.341);
+    margin: 5px auto;
+}
+
+.btn-body.active{
+    color: white;
+    transform: scale(1.05);
+    background-color: black;
+}
+
+.btn-title{
+    margin: 5px auto;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.widgetcard-body {
+    position: relative;
+    width: 30%;
+    height: 85%;
+    border-radius: 30px;
+    background: rgba(30, 42, 62, 0.217);
+    padding: 1%;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .widgetcard-body:hover {
+    transform: scale(1.05);
+  }
+  
+  .widget-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #cfdbee;
+    text-decoration: underline;
+  }
+  
+  .widget-fade {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    opacity: 0;
+    transition: 0.5s ease-in-out; 
+  }
+  
+  .widgetcard-body:hover .widget-fade {
+    opacity: 1;
+  }

@@ -1,0 +1,24 @@
+
+
+
+.favorite-track-div{
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(250, 222, 169);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    background: rgb(4,24,54);
+    background: linear-gradient(90deg, rgba(4, 24, 54, 0.555) 10%, rgba(49, 1, 56, 0.548) 100%);
+
+    /* border: 2px solid red; */
+}
+
+.favorite-track-div:hover{
+    background: rgb(4,24,54);
+    background: linear-gradient(90deg, rgb(49, 1, 56) 10%, rgba(4,24,54,1) 100%);
+}
